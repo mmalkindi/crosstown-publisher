@@ -16,3 +16,9 @@ Running RabbitMQ instance:
 
 Sending event from Publisher to Subscriber:  
 ![Subscriber receiving from Publisher](img/publisher_subscriber_run.png)
+
+Monitoring chart based on Publisher:  
+![RabbitMQ monitoring](img/rabbitmq_monitor_run.png)
+
+The spikes that happened in the chart above is caused by Publisher sending events into the queue.
+One point of the chart is higher than the other because the Publisher is run repeatedly (thus queueing more events) in a short amount of time.
