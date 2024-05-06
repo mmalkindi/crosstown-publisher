@@ -13,3 +13,6 @@ A: Publisher targets the same URL as the subscriber, which means it will be able
 
 Running RabbitMQ instance:  
 ![RabbitMQ first run](/img/rabbitmq_firstrun.png)
+
+Sending event from Publisher to Subscriber:  
+![Subscriber receiving from Publisher](img/publisher_subscriber_run.png)
