@@ -10,3 +10,6 @@ Every event is named `user_created`, with varying `user_id` and `user_name` on e
 > The url of: `amqp://guest:guest@localhost:5672` is the same as in the subscriber program, what does it mean?
 
 A: Publisher targets the same URL as the subscriber, which means it will be able to connect and communicate with each other.
+
+Running RabbitMQ instance:  
+![RabbitMQ first run](/img/rabbitmq_firstrun.png)
